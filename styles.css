@@ -1,6 +1,7 @@
-body {
-  font-family: sans-serif;
+#overlayHair {
+  display: block;
 }
 
-#overlayHair {
+img {
+  width: 300px;
 }
