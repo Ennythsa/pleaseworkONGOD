@@ -1,25 +1,16 @@
-#overlayHair {
-  display: block;
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0; 
-  display: flex;
-  align-content: center;
-  z-index: 2; 
+
+#container {
+  position: relative;
+  width: 300px;
+  height: 300px;
 }
 
-#base {
-  position: relative;
+#container div {
+  position: absolute;
   top: 0;
-  bottom: 0;
   left: 0;
-  right: 0; 
-  display: flex;
-  align-content: center;
-  }
+}
 
-img {
+#container img {
   width: 300px;
 }
